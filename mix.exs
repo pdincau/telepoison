@@ -31,7 +31,7 @@ defmodule Telepoison.MixProject do
 
   def dev_deps, do:
     [
-      {:opentelemetry, "~> 1.0.0-rc.2", only: :test},
+      {:opentelemetry, "~> 1.1.0", only: :test},
       {:plug, "~> 1.12", only: :test},
       {:plug_cowboy, "~> 2.2", only: :test},
       {:credo, "~> 1.5", only: [:dev, :test]},
